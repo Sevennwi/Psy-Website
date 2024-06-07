@@ -201,6 +201,14 @@ h3 {
   font-family: Oldenburg;
 }
 
+.slideIn {
+  opacity: 0;
+}
+
+.slideIn-transition {
+  animation: slideInTop 0.8s ease-in-out forwards;
+}
+
 .sectionAbout {
   padding: 0;
 }
