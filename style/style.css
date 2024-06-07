@@ -214,6 +214,14 @@ h3 {
     flex-direction: column;
   }
 }
+.sectionAbout .divideContainer .textContainer {
+  width: 80%;
+}
+@media all and (max-width: 1200px) {
+  .sectionAbout .divideContainer .textContainer {
+    width: 100%;
+  }
+}
 .sectionAbout .divideContainer .textContainer h3 {
   padding: 60px 0 20px;
   font-size: 3em;

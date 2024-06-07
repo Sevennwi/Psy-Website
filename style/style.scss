@@ -165,6 +165,10 @@ h3 {
       flex-direction: column;
     }
     .textContainer {
+      width: 80%;
+      @include ordi {
+        width: 100%;
+      }
       h3 {
         padding: 60px 0 20px;
         font-size: 3em;
