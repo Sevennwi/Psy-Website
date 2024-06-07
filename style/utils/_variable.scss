@@ -1,0 +1,78 @@
+$primary-color: #222;
+$second-color: #fff6ea;
+$hover-color: #ccb08b;
+
+@mixin quatreK {
+  @media all and (min-width: 1900px) {
+    @content;
+  }
+}
+
+@mixin ordiLarge {
+  @media all and (max-width: 1500px) {
+    @content;
+  }
+}
+
+@mixin ordi {
+  @media all and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin mini-ordi {
+  @media all and (max-width: 1050px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media all and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media all and (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin mini-mobile {
+  @media all and (max-width: 400px) {
+    @content;
+  }
+}
+
+body {
+  cursor: auto;
+  overflow-x: hidden;
+}
+
+@keyframes slideInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mainLogo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Pour débuger quand ça sort de l'écran
+
+/*  * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
